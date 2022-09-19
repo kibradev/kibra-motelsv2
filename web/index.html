@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>KibraMotelsV2</title>
+        <meta charset="UTF-8">
+        <link href="main.css" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro-v6@18657a9/css/all.min.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body class="body">
+        <div id="Container">
+            <div class="HeaderContainer">
+                <div id="Bildirim">
+                    <p>You rented a motel room.</p>
+                </div>
+                <h1><span id="mtlname"></span></h1>
+                <img class="Stars" src="stars.png">
+                <h2>This motel has a total of <b><span id="MotelRoomSayi"></span></b> rooms.</h2>
+                <button id="XloseMotel" class="CloseButton"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="ButtonGroup"></div>
+            <div class="MotelRoomsTable"></div>
+            <div id="MotelText"></div>
+            <div id="MotelBuyTemplate"></div>
+        </div>
+        <div id="BossMenuContainer">
+            <div class="BossMenuHeader">
+                <h1><span id="ModelName"></span></h1>
+                <h2>Boss Menu</h2>
+                <button id="Guvercin" class="CloseBossMenuButton"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div id="Memati" class="Box">
+                <h4>Company Money</h4>
+                <h1><span id="BossMenuMoney"></span></h1>
+                <input id="MoneyMiktar" type="number" class="MoneyIslem" placeholder="Money">
+                <button id="Deposit" class="ButtonIslem x1">Deposit Money</button>
+                <button id="Withdraw" class="ButtonIslem x1">Withdraw Money</button>
+            </div>
+            <div id="Memati" class="Box">
+                <h4>Motel Name</h4>
+                <h1><span id="MotelNameX"></span></h1>
+                <input  id="NewMotelName" type="text" class="MoneyIslem" placeholder="Cengiz Motel">
+                <button id="RenameMotel" class="ButtonIslem x1">Update</button>
+                <button id="TransferMotelOwnership" class="ButtonIslem x1">Transfer Motel Ownership</button>
+            </div>
+            <div class="Box">
+                <h4>Room Rent Price</h4>
+                <h1>Current: <span id="RentMoney"></span></h1>
+                <input id="ibel" type="number" class="MoneyIslem" placeholder="Room Rent Price">
+                <button id="ChangeRoomRentPrice" class="ButtonIslem x1">Update</button>
+                <button id="SellMotel" class="ButtonIslem x1">Sell Motel (+$<span id="SellMoney"></span>)</button>
+            </div>
+            <div class="MTable">
+                
+            </div>
+        </div>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="main.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </body>
+</html>

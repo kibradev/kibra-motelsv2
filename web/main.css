@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+#Container {
+    background-color: transparent;
+    width: 110vh;
+    position: relative;
+    top: 11vh;
+    display: none;
+    height: 77vh;
+    border-radius: .3vh;
+    margin: auto;
+}
+
+.HeaderContainer {
+    background-color: transparent;
+    width: 100%;
+    height: 16vh;
+    border-radius: .3vh;
+}
+
+.HeaderContainer h1 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 6vh;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    top: 3vh;
+    text-transform: uppercase;
+}
+
+.HeaderContainer h2 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.8vh;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    top: -11vh;
+}
+
+.MotelRoomsTable {
+    background-color: transparent;
+    width: 81%;
+    height: 41vh;
+    position: relative;
+    margin: auto;
+    overflow-y: auto;
+    /* display: flex; */
+    overflow-x: hidden;
+    top: 3vh;
+    border-radius: .3vh;
+}
+
+.MotelEmptyRoomsTable {
+    background-color: transparent;
+    width: 100%;
+    height: 41vh;
+    position: relative;
+    overflow-y: auto;
+    display: flex;
+    overflow-x: hidden;
+    top: 3vh;
+    border-radius: .3vh;
+}
+
+.Room {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 20.8vh;
+    height: 19vh;
+    margin-top: 1vh;
+    float: left;
+    border-radius: .3vh;
+    margin-left: 1vh;
+}
+
+.RoomBig {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 23.8vh;
+    height: 31vh;
+    margin-top: 1vh;
+    float: left;
+    border-radius: .3vh;
+    margin-left: 1vh;
+}
+
+.InfoButton {
+    background-color: transparent;
+    border: 1px;
+    font-size: 2vh;
+    width: 3vh;
+    position: relative;
+    left: 1vh;
+    cursor: pointer;
+    top: 1vh;
+    height: 3vh;
+    color: #000;
+}
+
+.Room h1{
+    font-family: 'The Nautigal', cursive;
+    color: #fff;
+    font-size: 6.8vh;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    top: -2vh;
+}
+
+.RoomBig h1{
+    font-family: 'The Nautigal', cursive;
+    color: #fff;
+    font-size: 5.5vh;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    top: -2vh;
+}
+
+
+
+.RentButton {
+    background-color: rgba(0,0,0,0.5);
+    width: 94%;
+    height: 5.5vh;
+    font-family: 'Inter', sans-serif;
+    border: 1px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.7vh;
+    color: #fff;
+    margin-top: 0.5vh;
+    top: -4.8vh;
+    left: 0.7vh;
+    border-radius: .3vh;
+}
+
+.RentButton:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+    box-shadow: 0 0 0px rgba(0,0,0,0.5), 0 0 0px rgba(0,0,0,0.5), 0 0 6px rgba(0,0,0,0.5);
+}
+
+.RentButton2 {
+    background-color: rgba(0,0,0,0.5);
+    width: 94%;
+    height: 5.5vh;
+    font-family: 'Inter', sans-serif;
+    border: 1px;
+    cursor: pointer;
+    position: relative;
+    font-size: 1.7vh;
+    color: #fff;
+    margin-top: 0.5vh;
+    top: -1.8vh;
+    left: 0.7vh;
+    border-radius: .3vh;
+}
+
+.RentButton2:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+    box-shadow: 0 0 0px rgba(0,0,0,0.5), 0 0 0px rgba(0,0,0,0.5), 0 0 6px rgba(0,0,0,0.5);
+}
+
+.ButtonGroup {
+    background-color: transparent;
+    width: 53vh;
+    height: 8vh;
+    margin: auto;
+    position: relative;
+    top: 4vh;
+    border-radius: .5vh;
+}
+
+.ButtonGroupElement {
+    background-color: transparent;
+    width: fit-content;
+    border: 1px;
+    height: 5vh;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    position: relative;
+    margin-left: 0vh;
+    color: #fff;
+    padding: 9px 17px;
+    cursor: pointer;
+    left: 0vh;
+    top: 1vh;
+    font-size: 1.5vh;
+    border-radius: .2vh;
+}
+
+.ButtonGroupElement:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.CloseButton {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 4vh;
+    height: 4vh;
+    position: relative;
+    cursor: pointer;
+    border: 1px;
+    color: #ececec;
+    font-size: 2.5vh;
+    border-radius: .2vh;
+    left: 103vh;
+    top: -31vh;
+}
+
+.CloseButton2 {
+    background-color: white;
+    width: 3vh;
+    height: 3vh;
+    position: relative;
+    cursor: pointer;
+    color: #000;
+    border: 1px;
+    font-size: 2vh;
+    border-radius: .3vh;
+    left: 14vh;
+    top: -1vh;
+}
+
+.BuyMotelText {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.8vh;
+    position: relative;
+    text-align: center;
+    font-weight: 700;
+    top: 5vh;
+}
+
+.MotelBuyButton {
+    background-color: white;
+    border: 1px;
+    width: 8vh;
+    border-radius: .2vh;
+    position: relative;
+    left: 2vh;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    height: 4vh;
+    font-size: 1.5vh;
+}
+
+.MotelBuyButton:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.MotelBuyButtonX {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 1px;
+    width: 26vh;
+    border-radius: .2vh;
+    position: relative;
+    left: 2vh;
+    top: 5vh;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    height: 4vh;
+    font-size: 1.5vh;
+}
+
+.MotelBuyButtonX:hover {
+    transition: 0.5s;
+    box-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+}
+
+.BuyMotelTemplate {
+    position: absolute;
+    background: rgba(0,0,0,0.8);
+    width: 47vh;
+    height: 18vh;
+    margin: auto;
+    border-radius: .3vh;
+    left: 31vh;
+    top: 23vh;
+}
+
+.BuMotelTempHeader {
+    background-color: transparent;
+    width: 46.5vh;
+    height: 7vh;
+    border-radius: .3vh;
+    position: absolute;
+    left: 0.2vh;
+}
+
+.BuMotelTempHeader h1 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 2.8vh;
+    position: relative;
+    padding: 6px 26px;
+    font-weight: 700;
+    top: 0.5vh;
+}
+
+.BuyMotelTextClass {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    font-size: 1.8vh;
+    position: relative;
+    padding: 3px 26px;
+    font-weight: 500;
+    top: 7vh;
+}
+
+.BuyMotelBigButton {
+    background-color: white;
+    width: 45vh;
+    position: relative;
+    left: 1vh;
+    font-size: 1.8vh;
+    border: 1px;
+    cursor: pointer;
+    top: 7vh;
+    font-family: 'Inter', sans-serif;
+    height: 5vh;
+}
+
+#Bildirim {
+    background-color: #00ff1a;
+    position: absolute;
+    top: 1vh;
+    padding: 0px 14px;
+    border-radius: .3vh;
+    left: 1vh;
+    display: none;
+    width: fit-content;
+    height: 5vh;
+}
+
+#Bildirim p {
+    font-family: 'Inter', sans-serif;
+    color: #000;
+    position: relative;
+    top: -0.5vh;
+    font-size: 2vh;
+}
+
+.Stars {
+    width: 32vh;
+    height: 16vh;
+    position: relative;
+    top: -6vh;
+    left: 39vh;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+#BossMenuContainer {
+    background-color: transparent;
+    width: 107vh;
+    display: none;
+    height: 69vh;
+    position: relative;
+    border-radius: .8vh;
+    top: 14vh;
+    margin: auto;
+}
+
+.BossMenuHeader {
+    background-color: transparent;
+    width: 100%;
+    border-top-left-radius: .8vh;
+    border-top-right-radius: .8vh;
+    margin: auto;
+    height: 9vh;
+}
+
+.BossMenuHeader h1 {
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    left: 1vh;
+    font-weight: 400;
+    top: 1.5vh;
+    font-size: 3.5vh;
+}
+
+.BossMenuHeader h2 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    left: 1.5vh;
+    font-weight: 800;
+    top: -0.5vh;
+    font-size: 1.6vh;
+}
+
+.CloseBossMenuButton {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 4vh;
+    height: 4vh;
+    border: 1px;
+    cursor: pointer;
+    color: #ffff;
+    font-size: 2.5vh;
+    border-radius: .4vh;
+    position: relative;
+    left: 102vh;
+    top: -9vh;
+}
+
+.Box {
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 34.5vh;
+    margin-left: 1vh;
+    margin-top: 1vh;
+    float: left;
+    height: 24vh;
+    border-radius: .5vh;
+}
+
+#Memati {
+    -webkit-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 2px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 1px -2px rgb(0 0 0 / 30%);
+}
+
+.Box h1 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    top: -3vh;
+    font-size: 3vh;
+}
+
+.Box h3 {
+    font-family: 'Inter', sans-serif;
+    color: #303030;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+    top: -3vh;
+    font-size: 2vh;
+}
+
+.MoneyIslem {
+    background-color: rgb(60 60 60 / 50%);
+    border: 1px;
+    font-family: 'Inter', sans-serif;
+    width: 32vh;
+    position: relative;
+    color: #ccc;
+    border: 1px;
+    border-radius: .5vh;
+    cursor: pointer;
+    top: -4vh;
+    border: 1px solid rgb(0 0 0 / 30%);
+    padding: 11px 20px;
+    left: 1vh;
+    height: 4vh;
+}
+
+.ButtonIslem {
+    width: 32vh;
+    position: relative;
+    border-radius: .5vh;
+    margin-top: 0.7vh;
+    font-family: 'Inter', sans-serif;
+    border: 1px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px;
+    padding: 11px 20px;
+    left: 1vh;
+    top: -4vh;
+    height: 4vh;
+}
+
+.x1 {
+    background-color: rgba(0,0,0,0.5);
+}
+
+input:focus {
+    outline: 0;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.ButtonIslem:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+    box-shadow: 0 0 0px rgba(0,0,0,0.5), 0 0 0px rgba(0,0,0,0.5), 0 0 6px rgba(0,0,0,0.5);
+}
+
+.Box h4 {
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 100;
+    top: -1vh;
+    font-size: 2vh;
+}
+
+.MTable {
+    background-color: transparent;
+    width: 98%;
+    border-radius: .4vh;
+    height: 49%;
+    position: relative;
+    left: 1vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0vh;
+    float: left;
+}
+
+.Oda {
+    background-color: transparent;
+    width: 100%;
+    height: 5vh;
+    position: relative;
+    -webkit-box-shadow: -2px 8px 19px -6px rgba(0,0,0,0.94);
+    -moz-box-shadow: -2px 8px 19px -6px rgba(0,0,0,0.94);
+    box-shadow: -2px 8px 4px -10px rgb(255 255 255 / 94%);
+    left: 0vh;
+    margin-top: 1vh;
+    border-radius: .3vh;
+}
+
+.RoomId {
+    background-color: transparent;
+    width: 10vh;
+    height: 5vh;
+    float: left;
+    border-radius: .3vh;
+    position: relative;
+    top: 0vh;
+}
+
+.LeftPart {
+    background-color: transparent;
+    width: 62%;
+    float: left;
+    height: 5vh;
+    border-radius: .3vh;
+}
+.LeftPart2 {
+    background-color: transparent;
+    width: 100%;
+    float: left;
+    height: 5vh;
+    border-radius: .3vh;
+}
+
+.RoomId h1 {
+    font-family: 'Inter', sans-serif;
+    color: #c1c1c1;
+    position: relative;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    top: -1.5vh;
+    left: 1vh;
+    font-size: 3vh;
+}
+
+.RoomId h2 {
+    font-family: 'Inter', sans-serif;
+    color: #dadada;
+    position: relative;
+    text-transform: inherit;
+    text-align: left;
+    font-weight: 500;
+    top: -0.5vh;
+    left: 1vh;
+    font-size: 2vh;
+}
+
+.RoomId h3 {
+    font-family: 'Inter', sans-serif;
+    color: #dadada;
+    position: relative;
+    text-transform: inherit;
+    text-align: center;
+    font-weight: 500;
+    top: -5.5vh;
+    left: 1vh;
+    font-size: 2vh;
+}
+
+.RightPart {
+    background-color: transparent;
+    width: 38%;
+    height: 5vh;
+    float: right;
+    border-radius: .3vh;
+}
+
+.BossIslemBut {
+    background-color: rgba(44, 44, 44, 0.5);
+    font-family: 'Inter', sans-serif;
+    height: 4vh;
+    width: 38.5vh;
+    color: #fff;
+    border-radius: .3vh;
+    position: relative;
+    left: 1vh;
+    cursor: pointer;
+    border: 1px;
+}
+
+.BossIslemBut:hover {
+    transition: 0.5s;
+    text-shadow: 0 0 0px #fff, 0 0 0px #fff, 0 0 6px #fff;
+    box-shadow: 0 0 0px rgba(0,0,0,0.5), 0 0 0px rgba(0,0,0,0.5), 0 0 6px rgba(0,0,0,0.5);
+}
